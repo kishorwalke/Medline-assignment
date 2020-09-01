@@ -1,0 +1,40 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    width: 100%;
+}
+
+.astrick::after {
+    content: '*';
+    margin-left: 3px;
+}
+
+.btn-success {
+    padding: 7px 30px;
+}
+
+.footer {
+    padding: 30px 15px 10px;
+    background-color: #184886;
+    color: #fff;
+    font-size: 14px;
+}
+
+.modal-header,
+.modal-footer {
+    border-bottom: none;
+
+}
+
+.modal-footer {
+    justify-content: center;
+    border-top: none;
+}
+
+.user-data li {
+    list-style: none;
+    padding: 5px 0px;
+}
